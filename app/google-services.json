@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "526614222298",
+    "project_id": "polovniautomobili-c0b96",
+    "storage_bucket": "polovniautomobili-c0b96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526614222298:android:4d2da9d4b0c78d5c229ce3",
+        "android_client_info": {
+          "package_name": "com.example.polovniautomobili"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526614222298-lq7b7ccv97l09i0siinjna90m92j75ih.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.polovniautomobili",
+            "certificate_hash": "541210bae1b95453a3ea41dc82aa49f369e7306a"
+          }
+        },
+        {
+          "client_id": "526614222298-uvs3huj4k79oasi5p9ten7n21phnpat6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9Te6fCwyFZ_IEshMNLpp9ph-w-Wft2ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526614222298-uvs3huj4k79oasi5p9ten7n21phnpat6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

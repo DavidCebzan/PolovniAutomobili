@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#1D1E22"
+    tools:context=".Register">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#EE9914"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/my_button_bg"
+        android:text="Register new account" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#EE9914"
+        android:backgroundTint="#EE9914"
+        android:textColorHint="#EE9914"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:textColor="#EE9914"
+        android:backgroundTint="#EE9914"
+        android:textColorHint="#EE9914"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EE9914"
+        android:hint="Enter the password again"
+        android:inputType="textPassword"
+        android:textColor="#EE9914"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:textColorHint="#EE9914"
+        />
+
+    <Button
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#EE9914"
+        android:background="@drawable/my_button_bg"
+        android:text="Register" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_button_bg"
+        android:visibility="gone" />
+
+</LinearLayout>
